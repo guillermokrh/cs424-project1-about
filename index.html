@@ -47,13 +47,10 @@
               <a class="nav-link js-scroll-trigger" href="#data">Data</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#sourcecode">Source Code</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#insights">Insights</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Authors</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Author</a>
             </li>
           </ul>
         </div>
@@ -64,20 +61,11 @@
       <section class="masthead text-center bg-primary" id="masthead">
       <div class="container h-100">
         <div class="row h-100">
-          <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5"><strong>Don't Go Near the Water is a data visualization project of data from the 1854 Cholera outbreak in London.</strong></h1>
+              <h1 class="mb-5"><strong>Don't Go Near the Water is a data visualization project of the 1854 Cholera outbreak in London.</strong></h1>
             </div>
-          </div>
-          <div class="col-lg-5 my-auto">
-            <div class="device-container">
-                <div class="device">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/app_screen.png" class="img-fluid" alt="">
-                </div>
-            </div>
-          </div>
         </div>
+        <img src="img/outbreak/p1.rojashernandez.guillermo.jpeg" height="430" width="900">
       </div>
       </section>
     <!--</header>-->
@@ -87,12 +75,14 @@
     <section class="description" id="description">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 mx-auto">
             <h2 class="section-heading">Description</h2>
-            <p>It was the best of times, it was the worst of times</p>
-            <p>It was the winter of discontent</p>
-          </div>
-          <iframe width="1120" height="630" src="https://www.youtube.com/embed/8BlnWulMzLE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <iframe width="1120" height="630" src="https://www.youtube.com/embed/8BlnWulMzLE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <p>This application can be used to look at the data from the 1854 cholera outbreak in London.</p>
+            <p>To use the application, open the application in your browser, or download the files and load them into R Studio</p>
+            <p>You can look at the application online at <a style="color: blue" href= "https://grojas5-project1.shinyapps.io/18p1data/">this link</a>
+              or you can download the files <a style="color: blue" href="https://guillermokrh.github.io/cs424-project1-about/files/project1_files.zip">here</a></p>
+            <p>In the application, you can look at the different statistics on cholera deaths in London, compared to cholera deaths in Naples, and population data from the latest UK Census at the time.</p>
+            <p>The application also provides a Leaflet map that maps the locations of the cholera deaths on a map of London, and shows the proximity to the water pumps at the time.</p>
         </div>
         <br>
         <h3><strong>Implementation Details</strong></h3>
@@ -128,7 +118,7 @@
                   <div class="feature-item">
                     <h4><strong>GitHub</strong></h4>
                     <p>
-                      We chose GitHub as a central code repository. Code is made available with a MIT license.
+                      Central code repository for website.
                     </p>
                   </div>
                 </div>
@@ -145,7 +135,10 @@
         <div class="row">
           <div class="col-lg-8 mx-auto" style="flex: 0 0 100%;">
             <h2 class="section-heading">Data</h2>
-            <p>Lorem ipsum wingardium Leviosa</p>
+            <p>The data utilized was chosen by the professor of the course, Dr. Andy Johnson.</p>
+            <p>It included data on the date and location of cholera outbreak deaths and attacks, and data on the
+              population of the UK at the time, and comparative statistics to cholera deaths in Naples.</p>
+            <p>For the application, I created bar charts and pie charts using the ggplot library once the data was processed into R Studio.</p>
           </div>
         </div>
 
@@ -153,85 +146,41 @@
           <div class="col-lg-4 my-auto">
             <div class="device-container">
               <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-              <img src="img/formative_eval/newsfeed.png" class="img-fluid" alt="">
+              <img src="img/outbreak/cholera_deaths_csv.png" class="img-fluid" alt="">
             </div>
           </div>
           <div class="col-lg-8 my-auto">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-lg-6">
-                  <img src="img/formative_eval/add_story_main.png" class="img-fluid" alt="">
+                  <img src="img/outbreak/uk_census_age_pie.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6">
-                  <img src="img/formative_eval/contribute_media-20171208.png" class="img-fluid" alt="">
+                  <img src="img/outbreak/uk_census_male_age_bar.png" class="img-fluid" alt="">
                 </div>
               </div>
             </div>
           </div>
         </div>
         <br>
-        <h3><strong>Data Source</strong></h3>
-        <h4> The first step....</h4>
-        <p style="font-size:16px;">
-          It was the best of times, it was the worst of times.
-          <a href="files/project1_files.zip">Here is a link to the data files used in the project.</a>
-        </p>
-        <p style="font-size:16px;">
-          It was the best of times, it was the worst of times.
-        </p>
 
       </div>
     </section>
 
-    <section class="sourcecode text-center" id="sourcecode">
 
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2>Source Code</h2>
-          <p> Lorem Ipsum</p>
-          <hr>
-        </div>
-        <h3> Lorem Ipsum</h3>
-        <p style="font-size:16px;">
-          Wingardum Leviosa
-        </p>
-
-      </div>
-    </section>
-
-    <section class="insights bg-primary text-center" id="insights">
+    <section class="insights text-center" id="insights">
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
             <h2 class="section-heading">Insights</h2>
-            <p>Summary of insights.</p>
-            <p> Summary <br>
-                Summary<br>
-                Summary
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 my-auto">
-            <h4>Chart 1</h4>
-            <div class="device-container">
-              <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-              <img src="img/design/first_it_media-20171208.jpg" class="img-fluid" alt="">
-            </div>
-          </div>
-          <div class="col-lg-8 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-6">
-                  <h4>Chart 2</h4>
-                  <img src="img/design/third_it_media-20171208.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6">
-                  <h4>Chart 3</h4>
-                  <img src="img/design/final_it_media-20171208.jpg" class="img-fluid" alt="">
-                </div>
-              </div>
-            </div>
+            <p>Overall the data visualization does support John Snow's belief that the water pump on Broad Street
+            caused the cholera outbreak.  On the leaflet map that was created, the locations of the deaths all surround
+            the Broad Street pump, and do not form a similar pattern around the other pumps.</p>
+            <img src="img/outbreak/leaflet.png" alt="">
+            <p><br>Additionally, from the line chart, it is obvious that there was a single incident around September 1st
+              that caused the majority of the cholera deaths.  If it had been multiple water pumps that were contaminated,
+              there might have been multiple large spikes in deaths, as opposed to one large spike.</p>
+            <img src="img/outbreak/attacks_and_deaths.png" alt="">
           </div>
         </div>
       </div>
@@ -247,13 +196,13 @@
       <div class="overlay"></div>
     </section>-->
 
-    <section class="contact" id="contact">
+    <section class="contact bg-primary" id="contact">
       <div class="container">
-        <h2> Authors</h2>
+        <h2> Author</h2>
         <ul class="list-inline list-social">
           <p>Guillermo Rojas Hernandez</p>
           <li class="list-inline-item github">
-            <a href="https://google.com" style="background-color:black;">
+            <a href="https://github.com/guillermokrh/cs424-project1-about" style="background-color:black;">
               <i class="fa fa-github"></i>
             </a>
           </li>
